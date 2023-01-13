@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: cornsilk;
+}
+
+.App {
+ display:  flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding-top: 0.9px;
+ font-family: lato, sans-serif
+}
+
+.logo-max-contenedor {
+  width: 2004%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.logo-max {
+  height: 90px;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
